@@ -1,0 +1,204 @@
+<html lang="en"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Theme change</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="dark-theme || light-theme">
+    <header class="dark-theme || light-theme">
+        <div class="header-wrapper">
+            <div class="title-followers">
+                <h1> Social Media Dashboard</h1>
+                <h3> Total Followers: 590,004</h3>
+            </div>
+            <hr>
+            <div class="color-toggle">
+                <p class="toggle">
+                    Dark Mode
+                </p>
+                <label for="" class="switch">
+                    <input type="checkbox" id="toggle" class="dark-mode" unchecked="">
+                    <span class="slider round"></span>
+                </label>
+
+            </div>
+        </div>
+    </header>
+    <div class="kpi-wrapper">
+        <div class="kpi-card">
+            <div class="card-top-facebook"></div>
+            <div class="kpi-card-top">
+                <div class="icon">
+                    <img src="/images/icon-facebook.svg" alt="facebook">
+                </div>
+                <div class="handle">
+                    <p>@dammydan16</p>
+                </div>
+                <div class="kpi">23K</div>
+            </div>
+            <div>
+                <h4 class="unit-of-measure">
+                    FOLLOWERS </h4>
+            </div>
+            <div>
+                <p class="delta up"> <img src="/images/icon-up.svg" alt=""> 110 Today</p>
+            </div>
+
+            <div class="kpi-card">
+                <div class="card-top-twitter"></div>
+                <div class="kpi-card-top">
+                    <div class="icon">
+                        <img src="/images/icon-twitter.svg" alt="facebook">
+                    </div>
+                    <div class="handle">
+                        <p>@dammydan16</p>
+                    </div>
+                    <div class="kpi">23.5k</div>
+                </div>
+                <div>
+                    <h4 class="unit-of-measure">
+                        FOLLOWERS </h4>
+                </div>
+                <div>
+                    <p class="delta up"> <img src="/images/icon-up.svg" alt=""> 73 Today</p>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <div class="card-top-instagram"></div>
+                <div class="kpi-card-top">
+                    <div class="icon">
+                        <img src="/images/icon-instagram.svg" alt="facebook">
+                    </div>
+                    <div class="handle">
+                        <p>@dah-nee-dee</p>
+                    </div>
+                    <div class="kpi">3.5k</div>
+                </div>
+                <div>
+                    <h4 class="unit-of-measure">
+                        FOLLOWERS </h4>
+                </div>
+                <div>
+                    <p class="delta up"> <img src="/images/icon-up.svg" alt=""> 730 Today</p>
+                </div>
+            </div>
+            <div class="kpi-card">
+                <div class="card-top-youtube"></div>
+                <div class="kpi-card-top">
+                    <div class="icon">
+                        <img src="/images/icon-youtube.svg" alt="facebook">
+                    </div>
+                    <div class="handle">
+                        <p>@aniel</p>
+                    </div>
+                    <div class="kpi">5k</div>
+                </div>
+                <div>
+                    <h4 class="unit-of-measure">
+                        SUBSCIBERS</h4>
+                </div>
+                <div>
+                    <p class="delta up"> <img src="/images/icon-down.svg" alt=""> 144 Today</p>
+                </div>
+            </div>
+
+        </div>
+        <div class="overview-header">
+            <h2>OVERVIEW - Today </h2>
+        </div>
+        <div class="overview-kpis">
+            <div class="overview-wrapper">
+                <div class="kpi-small">
+                    <div class="page-views">Page Views</div>
+                    <div class="logo"><img src="/images/icon-facebook.svg" alt=""></div>
+                     <div class="views">153</div>
+                     <div class="movement up"><img src="/images/icon-up.svg" alt="">3%</div>
+                </div>
+
+                <div class="kpi-small">
+                    <div class="page-views">Likes</div>
+                    <div class="logo"><img src="/images/icon-facebook.svg" alt=""></div>
+                     <div class="views">53</div>
+                     <div class="movement up"><img src="/images/icon-down.svg" alt="">2%</div>
+                </div>
+                <div class="kpi-small">
+                    <div class="page-views">Likes</div>
+                    <div class="logo"><img src="/images/icon-instagram.svg" alt=""></div>
+                     <div class="views">1563</div>
+                     <div class="movement up"><img src="/images/icon-up.svg" alt="">2343%</div>
+                </div>
+                <div class="kpi-small">
+                    <div class="page-views">Profile Views</div>
+                    <div class="logo"><img src="/images/icon-instagram.svg" alt=""></div>
+                     <div class="views">15k</div>
+                     <div class="movement up"><img src="/images/icon-up.svg" alt="">3%</div>
+                </div>
+                <div class="kpi-small">
+                    <div class="page-views">Retweets</div>
+                    <div class="logo"><img src="/images/icon-twitter.svg" alt=""></div>
+                     <div class="views">103</div>
+                     <div class="movement up"><img src="/images/icon-up.svg" alt="">304%</div>
+                </div>
+                <div class="kpi-small">
+                    <div class="page-views">Likes</div>
+                    <div class="logo"><img src="/images/icon-twitter.svg" alt=""></div>
+                     <div class="views">503</div>
+                     <div class="movement up"><img src="/images/icon-up.svg" alt="">553%</div>
+                </div>
+                <div class="kpi-small">
+                    <div class="page-views">Likes</div>
+                    <div class="logo"><img src="/images/icon-youtube.svg" alt=""></div>
+                     <div class="views">123</div>
+                     <div class="movement up"><img src="/images/icon-down.svg" alt="">12%</div>
+                </div>
+                <div class="kpi-small">
+                    <div class="page-views">Total Views</div>
+                    <div class="logo"><img src="/images/icon-youtube.svg" alt=""></div>
+                     <div class="views">1407</div>
+                     <div class="movement up"><img src="/images/icon-down.svg" alt="">13%</div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- Code injected by live-server -->
+<script type="text/javascript">
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+</body></html>
